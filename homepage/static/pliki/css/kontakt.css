@@ -20,7 +20,7 @@ html, body {
     background-image: url('/static/pliki/images/nowe/3.jpg');
 }
 .dwa{
-    background-image: url('/static/pliki/images/nowe/negatyw.jpg');
+    background-image: url('/static/pliki/images/nowe/3.jpg');
 }
 .trzy {
     background-image: url('/static/pliki/images/nowe/3.jpg');
@@ -35,10 +35,6 @@ html, body {
     padding-right: 18%;
     color: #27200D;
     padding-top: 3%;
-}
-.tytul2 {
-    
-    color: white
 }
 
 

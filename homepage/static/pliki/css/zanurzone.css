@@ -22,16 +22,12 @@ html, body {
 
 .wstep {
     padding-left: 3%;
-    padding-top: 8%;
+    padding-top: 2%;
     padding-right: 62%;
     text-align: justify;
 }
-#wyobrazsobie {
 
-    color: #27200D;
-    font-size: 18px;
-}
-#doprodukcji {
+#doprodukcji, #wyobrazsobie {
 
     color: #7D7355;
     font-size: 25px;
@@ -39,7 +35,7 @@ html, body {
 
 .pierwsza {
 
-    background-image: url('/static/pliki/images/nowe/1.jpg');
+    background-image: url('/static/pliki/images/bardzonowe/1.jpg');
 }
 .druga {
 
@@ -47,31 +43,31 @@ html, body {
 }
 .trzecia {
 
-    background-image: url('/static/pliki/images/moje/kawa/kawa0.jpg');
+    background-image: url('/static/pliki/images/moje/kawa/kawa4.jpg');
 }
 .czwarta {
 
-    background-image: url('/static/pliki/images/moje/orzechlaskowy/orzech0.jpg');
+    background-image: url('/static/pliki/images/moje/orzechlaskowy/orzech4.jpg');
 }
 .piata {
 
-    background-image: url('/static/pliki/images/moje/agrest/agrest0.jpg');
+    background-image: url('/static/pliki/images/moje/agrest/agrest4.jpg');
 }
 .szosta {
 
-    background-image: url('/static/pliki/images/moje/migdal/migdal0.jpg');
+    background-image: url('/static/pliki/images/moje/migdal/migdal4.jpg');
 }
 .siodma {
 
-    background-image: url('/static/pliki/images/moje/pomarancz/pomarancz0.jpg');
+    background-image: url('/static/pliki/images/moje/pomarancz/pomarancz4.jpg');
 }
 .osma {
 
-    background-image: url('/static/pliki/images/moje/wisnia/wisnia0.jpg');
+    background-image: url('/static/pliki/images/moje/wisnia/wisnia4.jpg');
 }
 .dziewiata {
 
-    background-image: url('/static/pliki/images/moje/sliwka/sliwka0.jpg');
+    background-image: url('/static/pliki/images/moje/sliwka/sliwka4.jpg');
 }
 .dziesiata {
 
@@ -160,16 +156,14 @@ html, body {
 }
 
 .dziesiata1 {
-    background-image: url('/static/pliki/images/moje/zestawy/zestaw1.png');
+    background-image: url('/static/pliki/images/moje/zestawy/zestaw4.png');
 }
 
 .dziesiata2 {
     background-image: url('/static/pliki/images/moje/zestawy/zestaw2.png');
 }
 
-.dziesiata3 {
-    background-image: url('/static/pliki/images/moje/zestawy/zestaw3.png');
-}
+
 
 
 .wachlarz {
@@ -237,7 +231,7 @@ html, body {
 .menu1 {
 
     font-family: 'Freude';
-    font-size: 25px;
+    font-size: 30px;
     color: #27200D;
     text-decoration: none;
     /* list-style: none; */
@@ -248,7 +242,7 @@ html, body {
 .menu2 {
     float: right;
     font-family: 'Freude';
-    font-size: 25px;
+    font-size: 30px;
     color: #27200D;
     text-decoration: none;
     /* list-style: none; */
