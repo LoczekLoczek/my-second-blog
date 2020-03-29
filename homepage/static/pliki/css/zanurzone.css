@@ -1,0 +1,388 @@
+{% load static %}
+
+
+html, body {
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.anim {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin-bottom: 2%;
+    padding: 0;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.wstep {
+    padding-left: 3%;
+    padding-top: 8%;
+    padding-right: 62%;
+    text-align: justify;
+}
+#wyobrazsobie {
+
+    color: #27200D;
+    font-size: 18px;
+}
+#doprodukcji {
+
+    color: #7D7355;
+    font-size: 25px;
+}
+
+.pierwsza {
+
+    background-image: url('/static/pliki/images/nowe/1.jpg');
+}
+.druga {
+
+    background-image: url('/static/pliki/images/nowe/2.jpg');
+}
+.trzecia {
+
+    background-image: url('/static/pliki/images/moje/kawa/kawa0.jpg');
+}
+.czwarta {
+
+    background-image: url('/static/pliki/images/moje/orzechlaskowy/orzech0.jpg');
+}
+.piata {
+
+    background-image: url('/static/pliki/images/moje/agrest/agrest0.jpg');
+}
+.szosta {
+
+    background-image: url('/static/pliki/images/moje/migdal/migdal0.jpg');
+}
+.siodma {
+
+    background-image: url('/static/pliki/images/moje/pomarancz/pomarancz0.jpg');
+}
+.osma {
+
+    background-image: url('/static/pliki/images/moje/wisnia/wisnia0.jpg');
+}
+.dziewiata {
+
+    background-image: url('/static/pliki/images/moje/sliwka/sliwka0.jpg');
+}
+.dziesiata {
+
+    background-image: url('/static/pliki/images/moje/zestawy/zestaw0.jpg');
+}
+
+
+.du {
+    width: 47.62%;
+    height: 100%;
+    margin-left: -1%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.ma {
+    width: 47.62%;
+    height: 100%;
+    margin-left: -1%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.trzecia1 {
+
+    background-image: url('/static/pliki/images/nowe/kawa/kawa1.png');
+}
+.trzecia2 {
+
+    background-image: url('/static/pliki/images/nowe/kawa/kawa2.png');
+}
+.czwarta1 {
+
+    background-image: url('/static/pliki/images/nowe/orzechlaskowy/orzech1.png');
+}
+.czwarta2 {
+
+    background-image: url('/static/pliki/images/nowe/orzechlaskowy/orzech2.png');
+}
+.piata1 {
+
+    background-image: url('/static/pliki/images/nowe/agrest/agrest1.png');;
+}
+.piata2 {
+
+    background-image: url('/static/pliki/images/nowe/agrest/agrest2.png');
+}
+.szosta1 {
+
+    background-image: url('/static/pliki/images/nowe/migdal/migdal1.png');;
+}
+.szosta2 {
+
+    background-image: url('/static/pliki/images/nowe/migdal/migdal2.png');
+}
+.siodma1 {
+
+    background-image: url('/static/pliki/images/nowe/pomarancz/pomarancz1.png');;
+}
+.siodma2 {
+
+    background-image: url('/static/pliki/images/nowe/pomarancz/pomarancz2.png');
+}
+.osma1 {
+
+    background-image: url('/static/pliki/images/nowe/wisnia/wisnia1.png');;
+}
+.osma2 {
+
+    background-image: url('/static/pliki/images/nowe/wisnia/wisnia2.png');
+}
+.dziewiata1 {
+
+    background-image: url('/static/pliki/images/nowe/sliwka/sliwka1.png');;
+}
+.dziewiata2 {
+
+    background-image: url('/static/pliki/images/nowe/sliwka/sliwka2.png');
+}
+
+.dzies {
+    width: 92%;
+    height: 100%;
+    margin-right: 0%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.dziesiata1 {
+    background-image: url('/static/pliki/images/moje/zestawy/zestaw1.png');
+}
+
+.dziesiata2 {
+    background-image: url('/static/pliki/images/moje/zestawy/zestaw2.png');
+}
+
+.dziesiata3 {
+    background-image: url('/static/pliki/images/moje/zestawy/zestaw3.png');
+}
+
+
+.wachlarz {
+    /* width: 38.1%;
+    height: 100%; */
+    width: 34.29%;
+    height: 90%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+
+
+.jedenasta1 {
+
+    margin-left: -2%;
+    background-image: url('/static/pliki/images/nowe/agrest/agrest1.png');
+}
+
+.jedenasta2 {
+
+    margin-left: 8%;
+    background-image: url('/static/pliki/images/nowe/kawa/kawa1.png');
+}
+
+.jedenasta3 {
+
+    margin-left: 18%;
+    background-image: url('/static/pliki/images/nowe/migdal/migdal1.png');
+}
+
+.jedenasta4 {
+
+    margin-left: 28%;
+    background-image: url('/static/pliki/images/nowe/orzechlaskowy/orzech1.png');
+}
+
+.jedenasta5 {
+
+    margin-left: 38%;
+    background-image: url('/static/pliki/images/nowe/pomarancz/pomarancz1.png');
+}
+
+.jedenasta6 {
+
+    margin-left: 48%;
+    background-image: url('/static/pliki/images/nowe/sliwka/sliwka1.png');
+}
+.jedenasta7 {
+
+    margin-left: 58%;
+    background-image: url('/static/pliki/images/nowe/wisnia/wisnia1.png');
+}
+
+
+.header {
+    /* display: flex; */
+    
+    /* flex-wrap: wrap; */
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.menu1 {
+
+    font-family: 'Freude';
+    font-size: 25px;
+    color: #27200D;
+    text-decoration: none;
+    /* list-style: none; */
+    /* padding-top: 2%;
+    padding-left: 2%; */
+    /* position: absolute; */
+}
+.menu2 {
+    float: right;
+    font-family: 'Freude';
+    font-size: 25px;
+    color: #27200D;
+    text-decoration: none;
+    /* list-style: none; */
+    /* padding-top: 2%;*/
+    padding-top: 10%;
+    /* position: relative; */
+}
+
+.menu1:hover{
+    color: #7D7355;
+}
+
+.menu2:hover{
+    color: #7D7355;
+}
+
+
+.stopka {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin-top: 45%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+.menu {
+    font-family: 'Freude';
+    font-size: 25px;
+    color: #27200D;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+
+}
+
+.podpis {
+    font-family: 'Freude';
+    font-size: 20px;
+    color: #27200D;
+    text-decoration: none;
+    list-style: none;
+    /* margin-top: 48%; */
+    padding-left: 35%;
+    /* padding-bottom: 1%; */
+    /* z-index: 99 !important;
+    pointer-events: auto !important;   */
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1120px) {
+
+    html, body {
+        height: 15rem;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .trzecia {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        margin-bottom: 2%;
+        padding: 0;
+        background-image: url('pdftoimage/moje/kawa0.jpg');
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+
+    .proba {
+        width: 100%;
+        height: 83%;
+        margin-left: 0,8%;
+        /* padding-top: 75px; */
+        background-image: url('pdftoimage/moje/kawa.png');
+        background-size: 100% 100%;
+        text-align: center;
+        color: rgb(128, 31, 31);
+        font-size: 3em;
+        position: relative;
+    }
+    
+    .proba1 {
+        width: 100%;
+        height: 43%;
+        margin-left: 0,8%;
+        /* margin: 50px auto;
+        padding-top: 75px; */
+        background-image: url('pdftoimage/moje/kawa2.png');
+        background-size: 100% 100%;
+        text-align: center;
+        color: rgb(128, 31, 31);
+        font-size: 3em;
+        position: absolute;
+    }
+
+
+
+    [data-aos="fade-up-right"] {
+        opacity: 0;
+        animation-delay: 1ms !important;
+        transition-property: opacity;
+      }
+      
+    [data-aos="fade-up-right"].aos-animate {
+        opacity: 1;
+        /* transition-duration: 10000ms !important;
+        transition-delay: 10000ms !important; */
+      }
+
+
+}
+
+
+
+    

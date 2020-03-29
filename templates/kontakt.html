@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        {% load staticfiles %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'pliki/css/kontakt.css' %}">
+    <title>Zanurzone</title>
+</head>
+<body>
+
+    <div class='anim jeden'>
+
+        <ul class="header"
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="500"
+        data-aos-duration="1000">
+
+            <li><a href="../#1" class="menu1">OFERTA</a></li>
+
+        </ul>
+
+
+        <div class="tytul">Napisz do nas</div>
+        <form id="contact-form"  role="form"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="100"
+        data-aos-duration="1000">
+
+            <div id="dane">
+
+                    <label><input type="text" placeholder="Imię i Nazwisko" id="name" name="name"  required="required" data-error="Imię jest wymagane"></label>
+                    <label><input type="email" placeholder="Adres Email" id="emailik" name="emailik"  required="required" data-error="Adres email jest wymagany"></label>
+                    <label><textarea id="rozmiarwiadomosci" placeholder="Twoja Wiadomość" name="message"  required="required" data-error="Please, leave us a message."></textarea></label>
+
+            </div>
+  
+            <div id="just">
+                <h5 class="czekboxy">Administratorem danych jest Słoikówka Kamil Marach, ul. Rivoliego 13, 62-030 Luboń (więcej informacji <a href='/politykaprywatnosci' target='_new' class="czekboxy">Polityka Prywatności</a>)</h5>
+                <input type="checkbox" id="coding1" name="checkbox-98[]" required="required">
+                <label for="coding1" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celach obsługi wysłanego przeze mnie za pośrednictwem formularza kontaktowego zapytania. Podanie danych osobowych jest dobrowolne, ale niezbędne do obsługi zapytania. Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+                <br><br><input type="checkbox" id="coding2" name="checkbox-99[]" >
+                <label for="coding2" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celu wysyłania treści marketingowych (informacji handlowych) . Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+                <br><br><input type="checkbox" id="coding3" name="checkbox-97[]" >
+                <label for="coding2" class="czekboxy">"Wyrażam zgodę na przetwarzanie moich danych osobowych w celu realizacji usługi newsletter. Podanie danych osobowych jest dobrowolne, ale niezbędne do realizacji usługi. Przysługuje mi prawo dostępu do moich danych, ich poprawiania, wyrażania sprzeciwu wobec ich przetwarzania oraz żądania ich usunięcia."</label>
+                <br>
+            </div>
+
+
+            <span class="przyciski">
+            <input type="submit" id="wyslij">
+            <input type="reset" value="Wyczyść" id="resetuj">
+            </span>
+  
+        </form>
+
+    </div>
+
+    <div class='anim dwa'>
+
+        <div class="tytul tytul2">Znajdź nas</div>
+
+        <div class="mapa"
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="200"
+        data-aos-duration="1500">
+
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1040244304886!2d16.891242815994424!3d52.350398556536554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045aa7080d3757%3A0x14cd89f12a5bc9e3!2zTWHFgmUgU3pjesSZxZtjaWE!5e0!3m2!1spl!2spl!4v1578251192818!5m2!1spl!2spl"></iframe>
+      
+        </div>
+
+    </div>
+
+    <div class='anim trzy'>
+
+        <div class="tytul">Nasze marki</div>
+
+        <div class="naszemarki"
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="100"
+        data-aos-duration="1000">
+
+            <div id="maleszczescia">
+                <p class="opismarki">Manufaktura Łagowski to oleje prosto z kija klasy premium. Raz zasmakujesz to już zawsze będziesz naoiliwiony ! Posiadamy w ofercie również czekolady belgijskie prosto z lidla. Nasmaruj dupę !</p>
+                <a href="https://maleszczescia.com/">
+                <img id="maleszczesciaimg" src="/static/pliki/images/golden_logo_male-szczescia.png">
+                </a>
+            </div>
+
+            <div id="manufakturalagowski">
+                <p class="opismarki">Natura zamknięta w słoiczkach. Smaki jak u babory. Opierdol wszystkie i pozwól się wkręcić ! Pamietaj, że Twój grosz do mojego grosza sprawi, że ja będe jeżdził Bentleyem, a Ty nadal będziesz zapierdalał kapciobusem :-)</p>
+                <a href="https://manufakturalagowski.pl/">
+                <img id="manufakturalagowskiimg" src="/static/pliki/images/golden_logo_manufaktura.png">
+                </a>
+            </div>
+
+        </div>
+
+        <p class="podpis"
+            data-aos="flip-down"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="1400"
+            data-aos-duration="1400">Kamil Marach     &emsp; &emsp; &emsp; &emsp;                +48 519 116 519
+        </p>
+    </div>
+
+</body>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

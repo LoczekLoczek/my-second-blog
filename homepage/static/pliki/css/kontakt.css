@@ -1,0 +1,169 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.anim {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin-bottom: 2%;
+    padding: 0;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    /* display: flex; */
+}
+
+.jeden{
+    background-image: url('/static/pliki/images/nowe/3.jpg');
+}
+.dwa{
+    background-image: url('/static/pliki/images/nowe/negatyw.jpg');
+}
+.trzy {
+    background-image: url('/static/pliki/images/nowe/3.jpg');
+}
+
+.tytul {
+    text-align: center;
+    font-family: "Freude", sans-serif;
+    font-weight: 220 !important;
+    font-size: 40px;  
+    padding-left: 30%;
+    padding-right: 18%;
+    color: #27200D;
+    padding-top: 3%;
+}
+.tytul2 {
+    
+    color: white
+}
+
+
+#contact-form, .mapa, .naszemarki {
+
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-right: 18%;
+}
+
+.naszemarki {
+    display: grid;
+    padding-right: 12%;
+}
+
+#maleszczescia, #manufakturalagowski {
+
+    display: flex;
+}
+
+.opismarki {
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+#maleszczesciaimg, #manufakturalagowskiimg {
+
+    height: 250px;
+    float: right;
+}
+
+.mapa {
+
+    padding-top: 1%;
+}
+
+#name, #emailik, #rozmiarwiadomosci {
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+#rozmiarwiadomosci {
+
+    height: 20vh;
+}
+
+#just{
+
+    text-align: justify;
+}
+.czekboxy {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 13px;
+}
+
+#wyslij {
+    background-color: #6C757D;
+    border-style: none;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    word-wrap: normal;
+    border-radius: .30rem;
+    margin: 2%;
+    color: white;
+    margin-left: 25%
+}
+  
+#resetuj {
+    background-color: #6C757D;
+    border-style: none;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    word-wrap: normal;
+    border-radius: .30rem;
+    margin: 2%;
+    color: white;
+    margin-left: 20%
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+}
+
+#map {
+    padding-top: 5%;
+    width: 100%;
+    height: 450px;
+    border-style: none;
+}
+
+.header {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu1 {
+    float: right;
+    font-family: 'Freude';
+    font-size: 25px;
+    color: #27200D;
+    text-decoration: none;
+    padding-right: 2%;
+}
+
+.menu1:hover{
+    color: #7D7355;
+}
+
+
+.podpis {
+    font-family: 'Freude';
+    font-size: 22px;
+    color: #27200D;
+    padding-left: 35%;
+    position: absolute;
+
+}
