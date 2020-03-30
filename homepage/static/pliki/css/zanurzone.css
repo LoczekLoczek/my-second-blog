@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Freude';
   src: local('Freude'),
-       url('../static/pliki/fonts/Freude.otf') format("opentype");
+       url('/static/pliki/fonts/Freude.otf') format("opentype");
 }
 
 html, body {
