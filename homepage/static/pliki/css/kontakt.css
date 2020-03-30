@@ -47,7 +47,7 @@ html, body {
 
 .naszemarki {
     display: grid;
-    padding-right: 12%;
+    padding-right: 15%;
 }
 
 #maleszczescia, #manufakturalagowski {
@@ -59,6 +59,8 @@ html, body {
 
     font-size: 20px;
     text-align: justify;
+    padding-right: 5%;
+    margin-top: 0%;
 }
 
 #maleszczesciaimg, #manufakturalagowskiimg {
