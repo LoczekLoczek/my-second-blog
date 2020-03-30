@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Freude';
+  src: local('Freude'),
+       url('/static/pliki/fonts/Freude.otf') format("opentype");
+}
+
+
+
 html, body {
     height: 100%;
     max-width: 100%;
