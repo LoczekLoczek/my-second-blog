@@ -270,7 +270,7 @@ html, body {
     display: flex;
     /* justify-content: center; */
     flex-wrap: wrap;
-    margin-top: 45%;
+    margin-top: 40%;
     text-decoration: none;
     list-style: none;
 }
@@ -303,7 +303,16 @@ html, body {
 
 }
 
+.danedofaktury {
+    font-family: 'Freude';
+    font-size: 20px;
+    color: #27200D;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
 
+
+}
 
 
 

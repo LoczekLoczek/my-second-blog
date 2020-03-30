@@ -65,6 +65,7 @@ html, body {
 
 .opismarki {
 
+    font-family: "Freude", sans-serif;
     font-size: 20px;
     text-align: justify;
     padding-right: 5%;
@@ -90,6 +91,8 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
     margin-bottom: 1%;
+    font-family: "Freude", sans-serif;
+
 }
 
 #rozmiarwiadomosci {
@@ -104,7 +107,8 @@ html, body {
 .czekboxy {
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 13px;
+    font-size: 12px;
+    font-family: "Freude", sans-serif;
 }
 
 #wyslij {
