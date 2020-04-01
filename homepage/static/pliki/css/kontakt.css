@@ -97,7 +97,7 @@ html, body {
 
 #rozmiarwiadomosci {
 
-    height: 20vh;
+    height: 15vh;
 }
 
 #just{
@@ -107,7 +107,7 @@ html, body {
 .czekboxy {
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Freude", sans-serif;
 }
 
@@ -121,7 +121,7 @@ html, body {
     border-radius: .30rem;
     margin: 2%;
     color: white;
-    margin-left: 25%
+    margin-left: 23%
 }
 
 #resetuj {
@@ -175,7 +175,7 @@ html, body {
     font-family: 'Freude';
     font-size: 22px;
     color: #27200D;
-    padding-left: 35%;
+    padding-left: 49%;
     position: absolute;
     text-align: center;
 
