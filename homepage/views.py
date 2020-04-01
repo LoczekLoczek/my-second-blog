@@ -8,3 +8,9 @@ def home(request):
 
 def home1(request):
     return render(request, 'kontakt.html')
+
+def home2(request):
+    return render(request, 'mapa.html')
+
+def home3(request):
+    return render(request, 'naszemarki.html')

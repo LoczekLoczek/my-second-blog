@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        {% load staticfiles %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'pliki/css/kontakt.css' %}">
+    <title>Zanurzone</title>
+</head>
+<body>
+
+    <div class='anim trzy'>
+
+        <ul class="header"
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="500"
+        data-aos-duration="1000">
+
+            <li><a href="../" class="menu1">POWRÓT</a></li>
+
+        </ul>
+
+        <div class="tytul">Nasze marki</div>
+
+        <div class="naszemarki"
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="100"
+        data-aos-duration="1000">
+
+            <div id="manufakturalagowski">
+                <p class="opismarki">Bazą naszych produktów są autorskie przepisy znanego i wielokrotnie nagradzanego szefa kuchni, Dawida Łagowskiego,
+                który w swojej codziennej pracy hołduje gotowaniu w stylu slow (z ang wolny). Produkty Manufaktury idą w poarze z tą filozofią, zachwycają
+                swoim naturalnym składem zachowując jednocześnie wyrazisty smak. W naszej ofercie znajdują się nowatorskie oleje smakowe, pasty oraz musy czekoladowe,
+                które z pewnością docenią miłośnicy dobrej i niebanalnej kuchni.</p>
+                <a href="https://manufakturalagowski.pl/">
+                <img id="manufakturalagowskiimg" src="/static/pliki/images/manufaktura-lagowski_logo_black.png">
+                </a>
+            </div>
+
+            <div id="maleszczescia">
+                <p class="opismarki">Przygotowane przez nas domowe przetwory w słoikach to idealna propozycja dla każdego,
+                    kto prowadzi zdrowy tryb życia, ale jednocześnie w głębi serca pozostał wielkim smakoszem.
+                    Małe Szczęścia to doskonały dowód na to, że można połączyć zdrowie z apetytem na pyszne jedzenie.
+                    Sposobem na to jest sięganie tylko po naturalną żywność. Z tego powodu w naszych produktach nie znajdziesz
+                    żadnych ulepszaczy smaku, barwników czy konserwantów. Produkty z logo Małe Szczęścia zwyczajnie nie potrzebują takich dodatków</p>
+                <a href="https://maleszczescia.com/">
+                <img id="maleszczesciaimg" src="/static/pliki/images/male-szczescia_logo_black.png">
+                </a>
+            </div>
+
+        </div>
+
+        <p class="podpis"
+            data-aos="flip-down"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="1400"
+            data-aos-duration="1400">Kamil Marach     &emsp; &emsp; &emsp; &emsp;                +48 519 116 519
+        </p>
+    </div>
+
+</body>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

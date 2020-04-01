@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        {% load staticfiles %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'pliki/css/kontakt.css' %}">
+    <title>Zanurzone</title>
+</head>
+<body>
+
+
+    <div class='anim dwa'>
+
+        <ul class="header"
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+        data-aos-delay="500"
+        data-aos-duration="1000">
+
+            <li><a href="../" class="menu1">POWRÓT</a></li>
+
+        </ul>
+
+        <div class="tytul">Znajdź nas</div>
+
+        <div class="mapa"
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="200"
+        data-aos-duration="1500">
+
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1040244304886!2d16.891242815994424!3d52.350398556536554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045aa7080d3757%3A0x14cd89f12a5bc9e3!2zTWHFgmUgU3pjesSZxZtjaWE!5e0!3m2!1spl!2spl!4v1578251192818!5m2!1spl!2spl"></iframe>
+
+        </div>
+
+    </div>
+
+</body>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
