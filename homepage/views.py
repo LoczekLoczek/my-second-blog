@@ -14,3 +14,6 @@ def home2(request):
 
 def home3(request):
     return render(request, 'naszemarki.html')
+
+def home4(request):
+    return render(request, 'politykaprywatnosci.html')
