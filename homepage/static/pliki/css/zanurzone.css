@@ -314,14 +314,27 @@ html, body {
     height: 100%;
     max-height: 100%;
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 0;
     background-size: 100% 80%;
     background-repeat: no-repeat;
     display: flex;
     }
 
+    .pierwsza {
 
+        background-image: url('/static/pliki/images/mobile/1.jpg');
+    }
+
+    .druga {
+
+    background-image: url('/static/pliki/images/mobile/2.jpg');
+    }
+
+    .trzecia {
+
+    background-image: url('/static/pliki/images/mobile/kawa/kawa4.jpg');
+    }
 
     .proba {
         width: 100%;
