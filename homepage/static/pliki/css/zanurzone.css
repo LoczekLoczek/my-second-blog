@@ -330,9 +330,41 @@ html, body {
     background-image: url('/static/pliki/images/mobile/2m.jpg');
     }
 
+    #doprodukcji, #wyobrazsobie {
+
+
+    font-size: 14px;
+    font-family: arial;
+    color: #535353;
+    }
+
     .trzecia {
 
     background-image: url('/static/pliki/images/mobile/kawa/kawa4m.jpg');
+    }
+
+    .du {
+    width: 60%;
+    height: 100%;
+    margin-left: -10%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+    .ma {
+        width: 0% !important;
+        height: 0% !important;
+        margin-left: -1%;
+        background-size: 0% 0%;
+        position: absolute;
+    }
+    .trzecia1 {
+
+        background-image: url('/static/pliki/images/nowe/kawa/kawa1.png');
+    }
+    .trzecia2 {
+
+        background-image: url('/static/pliki/images/nowe/kawa/kawa2.png');
     }
 
     .proba {
