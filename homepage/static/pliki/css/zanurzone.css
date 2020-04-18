@@ -311,7 +311,7 @@ html, body {
 
     .anim {
         width: 100% !important;
-        height: 100vh !important;
+        height: 100% !important;
         max-height: 100% !important;
         padding: 0;
         background-size: 100% 100%;
@@ -350,13 +350,13 @@ html, body {
     }
 
     .du {
-    width: 90.71%;
-    height: 75%;
-    margin-top: 20%;
-    margin-left: -35%;
-    background-size: 100% 100%;
-    position: relative;
-}
+        width: 90.71%;
+        height: 75%;
+        margin-top: 20%;
+        margin-left: -35%;
+        background-size: 100% 100%;
+        position: relative;
+    }
 
     .ma {
         width: 0% !important;
@@ -375,18 +375,40 @@ html, body {
     }
 
 
+    .anim {
 
-    [data-aos="fade-up-right"] {
+        overflow: hidden;
+    }
+
+
+
+    .wachlarz {
+
+        width: 31%;
+        height: 81%;
+
+    }
+
+    .dzies {
+        width: 73.6%;
+        height: 80%;
+        margin-right: 0%;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+
+
+    /*[data-aos="fade-right"] {
         opacity: 0;
         animation-delay: 1ms !important;
         transition-property: opacity;
       }
-      
+
     [data-aos="fade-up-right"].aos-animate {
         opacity: 1;
-        /* transition-duration: 10000ms !important;
-        transition-delay: 10000ms !important; */
-      }
+        transition-duration: 10000ms !important;
+        transition-delay: 10000ms !important;
+      }*/
 
 
 }
