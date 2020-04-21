@@ -348,7 +348,10 @@ html, body {
 
         background-image: url('/static/pliki/images/mobile/kawa/kawa4m.jpg');
     }
+    .czwarta {
 
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_sliwka.jpg');
+    }
     .du {
         width: 90.71%;
         height: 75%;
@@ -374,6 +377,14 @@ html, body {
         background-image: none;
     }
 
+    .czwarta1 {
+
+        background-image: none;
+    }
+    .czwarta2 {
+
+        background-image: none;
+    }
 
     .anim {
 
