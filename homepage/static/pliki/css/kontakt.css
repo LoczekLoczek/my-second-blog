@@ -199,3 +199,35 @@ html, body {
     padding-top: 3%;
     padding-right: 18%;
 }
+
+@media only screen and (max-width : 1120px) {
+
+.jeden{
+    background-image: none;
+}
+.dwa{
+    background-image: none;
+}
+.trzy {
+    background-image: none;
+}
+
+#contact-form, .mapa {
+
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-right: 10%;
+}
+
+.naszemarki {
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-right: 10%;
+
+}
+
+
+.opismarki {
+    display: none;
+}
+
