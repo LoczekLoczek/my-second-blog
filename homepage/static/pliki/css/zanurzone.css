@@ -346,11 +346,36 @@ html, body {
 
     .trzecia {
 
-        background-image: url('/static/pliki/images/mobile/kawa/kawa4m.jpg');
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_kawa_v3.jpg');
     }
     .czwarta {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_sliwka.jpg');
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_orzech_v3.jpg');
+    }
+    .piata {
+
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_agrest_v3.jpg');
+    }
+
+    .szosta {
+
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_migdaly_v3.jpg');
+    }
+    .siodma {
+
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_pomarancza_v3.jpg');
+    }
+    .osma {
+
+        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_wisnia_v3.jpg');
+    }
+    .dziewiata {
+
+        background-image: url('/static/pliki/images/mobilezanurzone_grafiki_1080x1920_sliwka_v3.jpg');
+    }
+    .dziesiata {
+
+        background-image: url('/static/pliki/images/moje/zestawy/zestaw0.jpg');
     }
     .du {
         width: 90.71%;
@@ -370,7 +395,7 @@ html, body {
     }
     .trzecia1 {
 
-        background-image: url('/static/pliki/images/nowe/kawa/kawa1.png');
+        background-image: none;
     }
     .trzecia2 {
 
@@ -385,6 +410,46 @@ html, body {
 
         background-image: none;
     }
+    .piata1 {
+
+        background-image: none;
+    }
+    .piata2 {
+
+        background-image: none;
+    }
+    .szosta1 {
+
+        background-image: none;
+    }
+    .szosta2 {
+
+        background-image: none;
+    }
+    .siodma1 {
+
+        background-image: none;
+    }
+    .siodma2 {
+
+        background-image: none;
+    }
+    .osma1 {
+
+        background-image: none;
+    }
+    .osma2 {
+
+        background-image: none;
+    }
+    .dziewiata1 {
+
+        background-image: none;
+    }
+    .dziewiata2 {
+
+        background-image: none;
+    }
 
     .anim {
 
@@ -396,7 +461,7 @@ html, body {
     .wachlarz {
 
         width: 31%;
-        height: 81%;
+        height: 61%;
 
     }
 
