@@ -467,14 +467,35 @@ html, body {
 
     .wachlarz {
 
-        width: 31%;
-        height: 51%;
+        background-image: none;
 
     }
 
 
 
-    /*[data-aos="fade-right"] {
+    .stopka {
+
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40%;
+        text-decoration: none;
+        list-style: none;
+        width: 80%;
+        padding-left: 0% !important;
+    }
+
+    .podpis {
+
+        word-wrap: normal;
+    }
+
+    /*.dziesiata1[data-aos=slide-left] {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+
+    [data-aos="fade-right"] {
         opacity: 0;
         animation-delay: 1ms !important;
         transition-property: opacity;
