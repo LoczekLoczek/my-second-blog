@@ -467,26 +467,29 @@ html, body {
 
     .wachlarz {
 
-        background-image: none;
-
+        width:0px;
     }
 
+    .jedenasta {
+
+        background-image: url('/static/pliki/images/mobile/koncowa.jpg');
+    }
 
 
     .stopka {
 
         display: flex;
         justify-content: space-evenly;
-        margin-top: 40%;
+        margin-top: 110%;
         text-decoration: none;
         list-style: none;
-        width: 80%;
+        width: 100%;
         padding-left: 0% !important;
     }
 
-    .podpis {
+    .podpis, .danedofaktury {
 
-        word-wrap: normal;
+       word-wrap: break-word;
     }
 
     /*.dziesiata1[data-aos=slide-left] {
