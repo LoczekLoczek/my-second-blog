@@ -220,7 +220,7 @@ html, body {
     }
 
     .naszemarki {
-        padding-left: 10%;
+        padding-left: 15%;
 
     }
 
@@ -242,7 +242,8 @@ html, body {
     .tytul {
 
         font-size: 30px;
-        padding-left: 15%;
+        padding-top: 2%;
+        padding-left: 18%;
         padding-right: 13%;
 
 }
