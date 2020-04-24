@@ -496,9 +496,9 @@ html, body {
     }
 
 
-    .podpis, .danedofaktury, {
+    .podpis, .danedofaktury  {
 
-        font-size: 60%;
+        font-size: 12px;
     }
 
     /*.dziesiata1[data-aos=slide-left] {
