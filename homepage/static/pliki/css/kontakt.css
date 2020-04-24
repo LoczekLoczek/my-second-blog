@@ -231,12 +231,12 @@ html, body {
 
     #wyslij {
 
-        margin-left: 18%
+        margin-left: 18%;
     }
 
     #resetuj {
 
-        margin-left: 18%
+        margin-left: 38%;
     }
 
     .tytul {
@@ -275,5 +275,9 @@ html, body {
 
     }
 
+    #rozmiarwiadomosci {
+
+        height: 12vh;
+    }
 
 }
