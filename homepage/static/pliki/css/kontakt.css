@@ -232,7 +232,10 @@ html, body {
     #wyslij {
 
         margin-left: 18%;
+        padding-left: 6%;
+        padding-right: 6%;
     }
+
 
     #resetuj {
 

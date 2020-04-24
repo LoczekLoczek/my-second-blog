@@ -510,8 +510,8 @@ html, body {
 
     .odnosnik {
 
-        padding-top: 0% !important;
-        margin-top: 0% !important;
+        padding-top: -5% !important;
+        margin-top: -5% !important;
 
     }
     /*.dziesiata1[data-aos=slide-left] {
