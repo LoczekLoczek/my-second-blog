@@ -121,7 +121,7 @@ html, body {
     border-radius: .30rem;
     margin: 2%;
     color: white;
-    margin-left: 23%
+    margin-left: 23%;
 }
 
 #resetuj {
@@ -134,7 +134,7 @@ html, body {
     border-radius: .30rem;
     margin: 2%;
     color: white;
-    margin-left: 20%
+    margin-left: 20%;
 }
 
 ::placeholder { 
@@ -202,32 +202,57 @@ html, body {
 
 @media only screen and (max-width : 1120px) {
 
-.jeden{
-    background-image: none;
+    .jeden{
+        background-image: none;
+    }
+    .dwa{
+        background-image: none;
+    }
+    .trzy {
+        background-image: none;
+    }
+
+    #contact-form, .mapa {
+
+        padding-left: 10%;
+        padding-top: 3%;
+        padding-right: 10%;
+    }
+
+    .naszemarki {
+        item-align: center;
+
+    }
+
+
+    .opismarki {
+        display: none;
+    }
+
+    #wyslij {
+        background-color: #6C757D;
+        border-style: none;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        word-wrap: normal;
+        border-radius: .30rem;
+        margin: 2%;
+        color: white;
+        margin-left: 18%
+    }
+
+    #resetuj {
+        background-color: #6C757D;
+        border-style: none;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        word-wrap: normal;
+        border-radius: .30rem;
+        margin: 2%;
+        color: white;
+        margin-left: 18%
+    }
+
 }
-.dwa{
-    background-image: none;
-}
-.trzy {
-    background-image: none;
-}
-
-#contact-form, .mapa {
-
-    padding-left: 10%;
-    padding-top: 3%;
-    padding-right: 10%;
-}
-
-.naszemarki {
-    padding-left: 30%;
-    padding-top: 3%;
-    padding-right: 10%;
-
-}
-
-
-.opismarki {
-    display: none;
-}
-
