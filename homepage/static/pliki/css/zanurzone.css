@@ -486,7 +486,8 @@ html, body {
         background-color: white;
         text-align: center;
         word-wrap: break-word;
-
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
     }
 
 
