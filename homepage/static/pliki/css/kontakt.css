@@ -232,14 +232,15 @@ html, body {
     #wyslij {
 
         margin-left: 18%;
-        padding-left: 6%;
-        padding-right: 6%;
+
     }
 
 
     #resetuj {
 
         margin-left: 26%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     .tytul {
