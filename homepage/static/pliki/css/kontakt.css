@@ -247,16 +247,25 @@ html, body {
         padding-right: 13%;
 
     }
-    .podpis {
-
-        padding-top: 1%;
-
-    }
-
 
     .menu1 {
 
         font-size: 22px;
-
     }
+
+
+    .polityka {
+
+        font-size: 18px;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-right: 5%;
+    }
+
+    .czekboxy {
+
+        font-size: 8px;
+    }
+
+
 }

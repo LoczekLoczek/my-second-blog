@@ -501,6 +501,15 @@ html, body {
         font-size: 12px;
     }
 
+    .menu {
+
+
+        font-size: 25px;
+        padding-bottom: 5%;
+
+
+    }
+
     /*.dziesiata1[data-aos=slide-left] {
         -webkit-transform: translateX(0);
         transform: translateX(0);
