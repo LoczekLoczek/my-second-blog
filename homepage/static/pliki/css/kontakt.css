@@ -242,8 +242,8 @@ html, body {
     .tytul {
 
         font-size: 30px;
-        padding-top: 2%;
-        padding-left: 22%;
+        padding-top: 4%;
+        padding-left: 24%;
         padding-right: 13%;
 
     }
@@ -270,7 +270,7 @@ html, body {
     .podpis {
 
         font-size: 12px;
-        padding-left: 30% !important;
+        padding-left: 34% !important;
 
 
     }
