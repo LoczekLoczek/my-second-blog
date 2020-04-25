@@ -221,6 +221,7 @@ html, body {
 
     .naszemarki {
         padding-left: 24%;
+        padding-top: 10%;
 
     }
 
@@ -231,21 +232,18 @@ html, body {
 
     #wyslij {
 
-        margin-left: 17%;
-
+        margin-left: 16%;
     }
-
 
     #resetuj {
 
-        margin-left: 27%;
-
+        margin-left: 24%;
     }
 
     .tytul {
 
         font-size: 30px;
-        padding-top: 4%;
+        padding-top: 5%;
         padding-left: 25%;
         padding-right: 13%;
     }
@@ -253,6 +251,7 @@ html, body {
     .menu1 {
 
         font-size: 22px;
+
     }
 
 
