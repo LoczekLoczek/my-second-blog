@@ -484,6 +484,7 @@ html, body {
         justify-content: space-around;
         padding-top: 5%;
         background-color: white;
+        margin-bottom: 0%;
 
 
         padding-left: 0% !important;
@@ -493,7 +494,8 @@ html, body {
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 0%;
-
+        width: 83.14%;
+        height: 8%;
     }
 
     .menik {
@@ -508,11 +510,10 @@ html, body {
     }
 
     .podpis {
+
         font-size: 12px;
         margin: 0%;
-        width: 10%;
     }
-
 
     .menu {
 
