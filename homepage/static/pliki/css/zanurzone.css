@@ -481,30 +481,34 @@ html, body {
         margin-top: 120%;
         display: flex;
         flex-wrap: wrap;
-
+        justify-content: space-around;
         padding-top: 5%;
         background-color: white;
         text-align: center;
-        /*word-wrap: break-word;*/
         padding-bottom: 0% !important;
         margin-bottom: 0% !important;
-    }
+        padding-left: 0% !important;
 
+    }
+    .box {
+        padding:10%;
+
+    }
 
     .menik {
 
-        padding-top: 30%;
+        padding-top: 15%;
 
     }
 
 
-    .podpis, .danedofaktury  {
+    .danedofaktury  {
 
         font-size: 12px;
-
+    }
+    .podpis {
 
     }
-
 
     .menu {
 
