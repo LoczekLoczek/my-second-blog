@@ -493,7 +493,7 @@ html, body {
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 0%;
-
+        width: 33.14%;
     }
 
     .menik {
@@ -511,6 +511,9 @@ html, body {
 
         font-size: 25px;
     }
+
+
+
 
     .odnosnik {
 
