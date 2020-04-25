@@ -501,18 +501,22 @@ html, body {
     .menik {
 
         padding-top: 15%;
+        padding-left: 26%;
+        width: 50%;
     }
 
     .danedofaktury {
 
         font-size: 12px;
         margin: 0%;
+
     }
 
     .podpis {
 
         font-size: 12px;
         margin: 0%;
+
     }
 
     .menu {
