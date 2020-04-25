@@ -493,7 +493,7 @@ html, body {
         padding-left: 10%;
         padding-right: 10%;
         padding-top: 0%;
-        width: 33.14%;
+
     }
 
     .menik {
@@ -501,11 +501,18 @@ html, body {
         padding-top: 15%;
     }
 
-    .danedofaktury, .podpis  {
+    .danedofaktury {
 
         font-size: 12px;
         margin: 0%;
     }
+
+    .podpis {
+        font-size: 12px;
+        margin: 0%;
+        width: 50%;
+    }
+
 
     .menu {
 
