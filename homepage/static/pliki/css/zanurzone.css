@@ -478,40 +478,36 @@ html, body {
 
     .stopka {
 
-        margin-top: 120%;
+        margin-top: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         padding-top: 5%;
         background-color: white;
-        text-align: center;
-        padding-bottom: 0% !important;
-        margin-bottom: 0% !important;
+
+
         padding-left: 0% !important;
 
     }
     .box {
-        padding:10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 0%;
 
     }
 
     .menik {
 
         padding-top: 15%;
-
     }
 
-
-    .danedofaktury  {
+    .danedofaktury, .podpis  {
 
         font-size: 12px;
-    }
-    .podpis {
-
+        margin: 0%;
     }
 
     .menu {
-
 
         font-size: 25px;
     }
