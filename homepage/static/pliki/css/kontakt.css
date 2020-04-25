@@ -265,8 +265,9 @@ html, body {
 
     .czekboxy {
 
-        font-size: 8px;
+        font-size: 7px;
     }
+
 
     .podpis {
 
@@ -278,7 +279,7 @@ html, body {
 
     #rozmiarwiadomosci {
 
-        height: 11vh;
+        height: 10vh;
     }
 
 }
