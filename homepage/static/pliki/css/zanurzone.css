@@ -501,20 +501,20 @@ html, body {
     .menik {
 
         padding-top: 4%;
-        padding-left: 26%;
+        padding-left: 30%;
         width: 40%;
     }
 
     .danedofaktury {
 
-        font-size: 12px;
+        font-size: 10px;
         margin: 0%;
 
     }
 
     .podpis {
 
-        font-size: 12px;
+        font-size: 10px;
         margin: 0%;
 
     }
@@ -529,8 +529,8 @@ html, body {
 
     .odnosnik {
 
-        padding-top: -4% !important;
-        margin-top: -4% !important;
+        padding-top: -2% !important;
+        margin-top: -2% !important;
 
     }
     /*.dziesiata1[data-aos=slide-left] {
