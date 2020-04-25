@@ -274,12 +274,41 @@ html, body {
         font-size: 12px;
         padding-left: 35% !important;
 
-
     }
 
     #rozmiarwiadomosci {
 
         height: 10vh;
+    }
+
+}
+
+@media only screen and (min-width : 1620px) {
+
+    #rozmiarwiadomosci {
+
+        height: 20vh;
+    }
+
+
+    .czekboxy {
+
+        font-size: 14px;
+    }
+
+    .tytul {
+
+        font-size: 50px;
+    }
+
+    .opismarki {
+
+        font-size: 28px;
+    }
+
+    #maleszczesciaimg, #manufakturalagowskiimg {
+
+        height: 240px;
     }
 
 }

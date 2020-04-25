@@ -377,22 +377,8 @@ html, body {
 
         background-image: url('/static/pliki/images/mobile/zestawy.jpg');
     }
-    .du {
-        width: 90.71%;
-        height: 75%;
-        margin-top: 20%;
-        margin-left: -35%;
-        background-size: 100% 100%;
-        position: relative;
-    }
 
-    .ma {
-        width: 0% !important;
-        height: 0% !important;
-        margin-left: 0%;
-        background-size: 0% 0%;
-        position: absolute;
-    }
+
     .trzecia1 {
 
         background-image: none;
@@ -554,6 +540,28 @@ html, body {
 
 }
 
+
+@media only screen and (min-width : 1620px) {
+
+
+    #doprodukcji, #wyobrazsobie {
+
+        font-size: 28px;
+    }
+
+
+    .podpis, .danedofaktury  {
+
+
+        font-size: 20px;
+    }
+
+    .menik {
+
+
+        width: 80%;
+    }
+}
 
 
     
