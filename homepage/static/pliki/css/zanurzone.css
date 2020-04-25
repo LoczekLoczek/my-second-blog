@@ -346,32 +346,32 @@ html, body {
 
     .trzecia {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_kawa_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/kawa/kawa0.jpg');
     }
     .czwarta {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_orzech_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/orzech/orzech0.jpg');
     }
     .piata {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_agrest_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/agrest/agrest0.jpg');
     }
 
     .szosta {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_migdaly_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/migdal/migdal0.jpg');
     }
     .siodma {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_pomarancza_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/pomarancza/pomarancza0.jpg');
     }
     .osma {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_wisnia_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/wisnia/wisnia0.jpg');
     }
     .dziewiata {
 
-        background-image: url('/static/pliki/images/mobile/zanurzone_grafiki_1080x1920_sliwka_v3.jpg');
+        background-image: url('/static/pliki/images/mobile/sliwka/sliwka0.jpg');
     }
     .dziesiata {
 
@@ -379,62 +379,78 @@ html, body {
     }
 
 
+    .du {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .ma {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+
     .trzecia1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/kawa/kawa1.png');
     }
     .trzecia2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/kawa/kawa2.png');
     }
 
     .czwarta1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/orzech/orzech1.png');
     }
     .czwarta2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/orzech/orzech2.png');
     }
     .piata1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/agrest/agrest1.png');
     }
     .piata2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/agrest/agrest2.png');
     }
     .szosta1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/migdal/migdal1.png');
     }
     .szosta2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/migdal/migdal2.png');
     }
     .siodma1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/pomarancza/pomarancza1.png');
     }
     .siodma2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/pomarancza/pomarancza2.png');
     }
     .osma1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/wisnia/wisnia1.png');
     }
     .osma2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/wisnia/wisnia2.png');
     }
     .dziewiata1 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/sliwka/sliwka1.png');
     }
     .dziewiata2 {
 
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/sliwka/sliwka2.png');
     }
     .dziesiata1 {
         background-image: none;
