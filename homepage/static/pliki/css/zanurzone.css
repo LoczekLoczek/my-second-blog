@@ -375,7 +375,7 @@ html, body {
     }
     .dziesiata {
 
-        background-image: url('/static/pliki/images/mobile/zestawy.jpg');
+        background-image: url('/static/pliki/images/mobile/zestawy0.jpg');
     }
 
 
@@ -452,8 +452,19 @@ html, body {
 
         background-image: url('/static/pliki/images/mobile/sliwka/sliwka2.png');
     }
+
+
+    .dzies {
+        width: 100%;
+        height: 100%;
+        margin-right: 0%;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+
+
     .dziesiata1 {
-        background-image: none;
+        background-image: url('/static/pliki/images/mobile/zestawy1.png');
     }
 
     .dziesiata2 {
